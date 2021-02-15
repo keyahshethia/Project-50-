@@ -1,0 +1,81 @@
+h1{
+    color: rgb(207, 28, 43);
+    text-align: center;
+    margin-left: 850px;
+    width: 310px;
+    font-family:fantasy;
+}
+
+   .header 
+   *{
+    border:solid;
+   }
+   
+   .header{
+     background-color: rgb(189, 61, 172);  
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     
+   }
+   
+   .menu{
+       background-color: cadetblue;
+       display: flex;
+       justify-content: space-between;
+       margin-top: 40;
+       margin-right: 30px;
+   }
+
+   .image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.games{
+   background-color: darkorchid;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+ p,h2{
+     text-align: center;
+ }
+
+ body{
+background-color:#B376AB;;
+ }
+
+a:link{
+     color:rgb(0, 174, 255);
+}
+
+a:visited{
+     color:tomato;
+}
+
+.menu a{
+margin-left:20px;    
+}
+
+.games{
+    position:relative;
+}
+
+.games p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.games:hover p{
+opacity: 1;    
+}
+
+.games:hover img{
+    opacity:0.5;
+}
